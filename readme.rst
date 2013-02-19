@@ -17,7 +17,7 @@ Via pip:
 Configuration
 --------------
 Settings for Django settings.py.  Key values found at `http://www.yelp.com/developers/request_apiv2_key`
-
+::
     YELP_CONSUMER_KEY = ''
     YELP_CONSUMER_SECRET = ''
     YELP_TOKEN = ''
@@ -25,7 +25,7 @@ Settings for Django settings.py.  Key values found at `http://www.yelp.com/devel
 
 
 Or call the client with the 4 arguments above:
-
+::
     yelp_client = yelp.client(client_key=YELP_CONSUMER_KEY,
                               client_secret=YELP_CONSUMER_SECRET,
                               resource_owner_key=YELP_TOKEN,
